@@ -1,0 +1,721 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Mulish',sans-serif;
+    text-decoration: none;
+}
+
+  
+.first-nav a{
+    color: #fff;
+    text-decoration: none;
+}
+/* first nav bar start */
+.first-nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #083791;
+    height: 40px;
+    color: #fff;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.logo1{
+    display: none;
+}
+.con h4{
+    display: inline;
+    padding-left: 5px;
+    transition: color 2s ease-out;
+}
+.con h4 a:hover{
+    color: #ff8e32;
+}
+.menu1{
+    display: none;
+}
+   
+/* first nav bar end */
+
+/* nav bar section start */
+.nav-bar{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-around;
+    
+    /* color: #fff; */
+    /* background-color: #000000; */
+    padding-top: 30px;
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+#nav-details ul li{
+    display: inline;
+    padding-right: 30px;
+    font-size: 20px;
+}
+#res-nav{
+    background-color: black;
+    color: rgb(201, 176, 176);
+    
+}
+#res-nav ul li{
+    line-height: 50px;
+    padding: 10px 0 10px 30px;
+}
+#res-nav{
+    display: none;
+}
+
+/* nav a{
+    color: black;
+} */
+.nav-bar #btn1{
+    background-color: #083791;
+    height: 20px;
+    padding: 15px;
+    margin-top: -16px;
+    transition: background-color 2s ease-in-out;
+}
+.nav-bar #btn1:hover{
+    background: #ff8e32;
+}
+.nav-bar #btn1 a{
+    color: #fff;
+}
+.menu{
+    position: relative;
+    right: 320px;
+    bottom: 6px;
+    
+}
+
+.slide-show{
+    width: 100%;
+    color: blue;
+    font-size: 35px;
+}
+.slide-text h1{
+    position: absolute;
+    bottom: 150px;
+    right: 0px;
+    animation: mypage 4s infinite;
+}
+@keyframes mypage {
+    from {right: 0px;}
+    to {right: 800px;}
+  }
+/* img {
+    position: relative;
+    transition: opacity .5s ease-in;
+  }
+  
+  img + img { opacity: 0; } */
+
+/* contact section start */
+.contact{
+    margin: auto;
+    width: 75%;
+    display: flex;
+    font-family: 'Mulish',sans-serif;
+    font-weight: 400;
+    margin-top: -80px;
+}
+.contact1{
+    display: block;
+    color: white;
+    background-color:#083791;
+    line-height: 25px;
+    font-size: 20px;
+    width: 450px;
+    height: 200px;
+    padding: 40px 20px 50px 20px;
+
+}
+#con1{
+    background-color:#052a70;
+}
+/* .contact1 h6{
+    text-align: center;
+    width: 200px;
+} */
+.contact1 h6 a{
+    color: black
+    
+}
+#con-btn{
+    border: none;
+    background-color: white;
+    width: 140px;
+    text-align: center;
+    padding: 10px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    transition: background-color 1s ease-out;
+}
+#con-btn:hover{
+    background-color: #ff8e32;
+}
+#con-btn a:hover{
+    color: white;
+}
+
+ 
+
+/* contact section end */
+
+/* about hospital start */
+.about{
+    display: flex;
+    margin: auto;
+    width: 75%;
+    height: 500px;
+    color: #083791;
+    line-height: 30px;
+    margin-top: 60px;
+}
+.about1{
+    margin: 20px;
+    text-align: left;
+}
+#abt1{
+    padding-top: 50px;
+}
+#abt1 h4{
+    background-color: #083791;
+    color: white;
+    display: block;
+    width: 180px;
+    text-align: center;
+    padding: 12px;
+    margin-top: 50px;
+    transition: background-color 1s ease-in;
+}
+#abt1 h4:hover{
+    background-color: #ff8e32;
+}
+#abt2:hover{
+    border-bottom:4px solid #ff8e32;
+}
+/* about hospital end */
+
+
+
+/* menu section start */
+.menu-list{
+    background-image: url(../images/menu-list.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 520px;
+    margin-top: 60px;
+    width: 100%;
+}
+.menu-lists{
+    display: block;
+    border: 1px solid;
+    width: 300px;
+    height: 450px;
+    padding: 60px 0 0 50px;
+    background-color: #083791;
+    color: white;
+    margin-left: 40px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+}
+.menu-lists li{
+    padding-top: 35px;
+    list-style-type: none;
+}
+.menu-lists li a{
+    color: white;
+    transition: color 1s ease-out;
+}
+.menu-lists li a:hover{
+    color: #ff8e32;
+}
+.menu-li{
+    display: block;
+   width: 700px;
+   height: 200px;
+   position: relative;
+   bottom: 370px;
+   left: 700px;
+   color: rgb(86, 104, 185);
+}
+.menu-li h4{
+    display: block;
+    background-color: #083791;
+    color: rgb(156, 156, 201);
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 25px;
+    transition:  background-color 1s ease-in;
+}
+.menu-li h4:hover{
+    background-color: #ff8e32;
+}
+/* menu section end */
+
+
+
+/* our team section start */
+.team-sec{
+    background-color: #083791;
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+    /* position: relative;
+    bottom: 640px; */
+    padding-top: 50px;
+}
+.member{
+    margin: auto;
+    display: flex;
+    width: 75%;
+    margin-top: 60px;
+    justify-content: space-between;
+    color: #083791;
+}
+.member #icon{
+    background-color: #143c88;
+    height: 44px;
+    display: flex;
+    justify-content: space-around;
+    width: 275px;
+    margin-top: -60px;
+    position: sticky;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+.member #icon:hover{
+    opacity: 1;
+}
+
+.member #icon #fa{
+    height: 20px;
+    width: 25px;
+    padding-top: 12px;
+    border-radius: 50%;
+}
+/* our team section end */
+
+
+
+/* video section start */
+.vid-text{
+    margin: auto;
+    width: 70%;
+    margin-top: 280px;
+    /* position: relative;
+    bottom: 300px; */
+}
+.video-text{
+    display: block;
+    line-height: 30px;
+    text-align: left;
+    width: 400px;
+    float: left;
+    padding: 30px;
+    color: #083791;
+}
+.vid-sec{
+    float: right;
+}
+.vid-sec img{
+    height: 400px;
+    margin-top: 80px;
+}
+.icon-img{
+    display: flex;
+    padding: 15px;
+    line-height: 30px;
+}
+.icon-img div{
+    padding-left: 20px;
+}
+.icon-img img{
+    height: 70px;
+} 
+/* video section end */
+
+/* slide show section start */
+.small-slide{
+    position: relative;
+    top: 80px;
+    width: 100%;
+    color: #083791;
+}
+.small-slide .texs{
+   position: relative;
+   height: 20px;
+   right: 185px;
+   bottom: 40px;
+   width: 80%;
+   text-align: center;
+}
+.slide{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 80%;
+    
+    
+}
+.slide-small{
+    text-align: center;
+    font-size: 12px;
+    width: 350px;
+
+}
+.slide-small div{
+    
+    display: block;
+    overflow: hidden;
+}
+.slide-small img{
+    width: 80%;
+    transition: 0.5s all ease-in-out;
+}
+.slide-small:hover img{
+    transform: scale(1.5);
+}
+
+
+/* slide show section end */
+
+
+
+/* contact below section start */
+.con-below{
+    background-image: url("../images/doc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    height: 500px;
+    border-top-style: solid;
+    border-top-color: coral;
+    margin-top: 200px;
+}
+.txt-box1{
+    display: block;
+    height: 350px;
+    width: 550px;
+    padding: 35px;
+    line-height: 30px;
+    position: relative;
+    left: 180px;
+    top: 80px;
+    color: blue;
+}
+.txt-box1 #num1 {
+    display: block;
+    width: 250px;
+    background-color: white;
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px 20px;
+}
+.form-reg{
+    box-sizing: border-box;
+    border: 2px solid;
+    margin: auto;
+    width: 430px;
+    height: 550px;
+    padding: 30px 0 0 27px;
+    position: relative;
+    bottom: 500px;
+    left: 400px;
+    color: white;
+    background-color:#083791
+}
+form{
+    padding-top: 40px;
+}
+#Patient,#Gender,#Patient1,.comment{
+    margin: 10px;
+    padding: 10px 27px;
+    border-radius: 6px;
+}
+#Date{
+    padding: 10px 33px;
+    margin-left: 10px;
+    border-radius: 6px;
+}
+.form-reg input[type=text]{
+    padding: 12px 0 12px 25px;
+    margin-left: 10px;
+    border-radius: 6px;
+    width: 138px;
+}
+.comment{
+    margin-left: 14px;
+    width: 297px;
+    height: 100px;
+}
+input[type=submit]{
+    width: 360px;
+    padding: 12px;
+    border-radius: 6px;
+    margin-left: 13px;
+    transition: background-color 2s ease-out;
+}
+input[type=submit]:hover{
+    background-color: #ff8e32;
+    color: white;
+}
+/* contact below section end */
+
+
+
+/* footer section start */
+footer{
+    background-color: #083791;
+    color: white;
+    margin-top: 50px;
+}
+.sec{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+.sec1{
+    display: block;
+    padding: 20px;
+    width: 300px;
+    line-height: 30px;
+}
+.foot-icon{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+#fa{
+    color: white;
+    display: block;
+    padding: 8px;
+    width: 19px;
+    background-color: #ff8e32;
+}
+#fa:hover{
+    color: blueviolet;
+    background-color: white;
+}
+ul li {
+    list-style-type: none;
+}
+ul li a{
+    color: white;
+    transition: color 1s ease-in-out;
+}
+ul li a:hover{
+    color: #ff8e32;
+}
+.sec1 input[type=text]{
+    padding: 10px;
+    width: 250px;
+    color: none;
+}
+#sub-btn{
+    padding: 12px;
+    width: 140px;
+    border-radius: 8px;
+    color: white;
+    background-color: #ff8e32;
+}
+#sub-btn:hover{
+    background-color: white;
+    color: #ff8e32;
+}
+/* footer section end */
+@media screen and (max-width: 768px) {
+    .logo{
+        display: none;
+    }
+    .con{
+        display: none;
+    }
+    .logo1{
+        display: block;
+        margin-top: -3px;
+    }
+    .nav-bar{
+        margin-top: -5px;
+        margin-bottom: -5px;
+        position: relative;
+        top: 0px;
+    }
+    #nav-details{
+        display: none;
+    }
+    .menu1{
+        display: block;
+        padding-right: 180px;
+        margin-top: -8px;
+    }
+
+     /* nav over */
+
+    .contact{
+        width: 100%;
+        display: inline;
+    }
+    .contact1{
+        width: 90%;
+        font-size: 18px;
+        height: 150px;
+    }
+    #con1{
+        height: 95px;
+    }
+
+    /* contact section over */
+
+    .about{
+        display: inline;
+    }
+
+    /* about section over */
+    .menu-lists{
+        width: 80%;
+        height: 450px;
+        margin-left: 0;
+        position: relative;
+        top: 560px;
+    }
+    .menu-li{
+        font-size: 12px;
+        width: 90%;
+        position: relative;
+        bottom: 340px;
+        left: 60px;
+    }
+    .menu-li h4{
+        font-size: 17px;
+        padding: 10px;
+    }
+    .team-sec{
+        margin-top: 600px;
+        font-size: 12px;
+        line-height: 20px;
+        height: 160px;
+    }
+    .member{
+        display: inline;
+        text-align: center;
+        position: relative;
+        top: 60px;
+    }
+    .member img{
+        width: 250px;
+        height: 250px;
+    }
+    .member #icon{
+        margin-top:2px;
+        width: 252px;
+        margin-left: 80px;
+    }
+    /* over */
+    .vid-text{
+        display: none;
+    }
+    .texs{
+        margin-left: -65px;
+        margin-top: -150px;
+    }
+    .small-slide img{
+        width: 100%;
+        height: 200px;
+        
+    }
+    .small-slide{
+        position: relative;
+        top: 1630px;
+        width: 100%;
+        
+    }
+    .small-slide .texs{
+        width: 100%;
+        text-align: center;
+        padding-left: 80px;
+    }
+    .slide{
+        display: inline;
+        position: relative;
+        top: 20px;
+        padding-left: 50px;
+    }
+    .slide-small{
+        width: 50%;
+        font-size: 12px;
+        margin-left: 80px;
+        padding-top: 30px;
+        padding-left: 20px;
+        
+    }
+    .con-below{
+        margin-top: 1800px;
+        width: 100%;
+    }
+    .txt-box1{
+        font-size: 12px;
+        width: 75%;
+        margin-left: -160px;
+        margin-top: -70px;
+    }
+    .form-reg{
+        width: 100%;
+        height: 500px;
+        position: relative;
+        top: 170px;
+        left: 0px;
+    }
+    /* footer section start */
+    footer{
+        font-size: 16px;
+        position: relative;
+        top: 500px;
+           
+    }
+    .sec{
+        display: inline;
+        width: 100%;
+        padding: 30px 20px 30px 60px;
+    }
+    .sec1{
+        display: block;
+        padding: 20px;
+        width: 100%;
+        line-height: 20px;
+    }
+    
+    .foot-icon{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+
+    }
+    .sec1 input[type=text]{
+        padding: 6px;
+        width: 360px;
+        font-size: 18px;
+    }
+    #sub-btn{
+        padding: 6px;
+        width: 380px;
+        font-size: 18px;
+    }
+    /* footer section end reg*/
+
+}
+
